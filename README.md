@@ -1,11 +1,11 @@
 # Quki_GDSC
 Jun, Woody, Yeon 
 
-Front-End -Jun, Yeon (Use React, SCSS)
+Front-End -Jun, Yeon (Use React, SCSS) : Only supported at 1080px x 1920px resolution
 
-App - Woody ( Use Kotlin)
-Infra - Woody (Use NaverCloud)
-Back-End - Woody (Use SpringBoot & JPA)
+App - Woody ( Use Kotlin) <br/>
+Infra - Woody (Use NaverCloud) <br/>
+Back-End - Woody (Use SpringBoot & JPA) <br/>
 
 
 
