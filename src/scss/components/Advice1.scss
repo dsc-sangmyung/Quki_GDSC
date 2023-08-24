@@ -1,0 +1,30 @@
+.advice-container {
+    position: relative;
+  }
+  
+  .ad-text1 {
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    left: 40px;
+    top: 150px;
+  }
+
+  .ad-text2 {
+    position: absolute;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align:center;
+    left: 350px;
+    top: 1100px;
+  }
+  
+
+    .ad-img img{
+        width: 700px;
+        height: auto;
+        margin-left:180px;
+        margin-top: 500px;
+    }

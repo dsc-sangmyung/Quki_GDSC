@@ -1,0 +1,140 @@
+.Menu_Container {
+    width : 930px;
+    height : 1880px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+
+.Menu_Wrapper {
+    display: flex;
+    flex-direction: row;
+
+    width : 930px;
+    height : 3000px;
+
+    flex-wrap: wrap;
+    gap: 8px;;
+
+    border-bottom: 4px solid black;
+
+    overflow-y: scroll;
+    align-items: center;
+}
+
+.Menu_Wrapper::-webkit-scrollbar {
+    width: 16px;
+}
+.Menu_Wrapper::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+.sMenu_Wrapper::-webkit-scrollbar-thumb {
+    background-color: #d4aa70;
+    border-radius: 100px;
+}
+.Menu_Wrapper {
+    scrollbar-color: #D4AA70 #e4e4e4;
+}
+.Menu_Wrapper::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #D4AA70 99%, #e4e4e4 0%);
+    box-shadow: inset 2px 2px 10px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+}
+
+.Menu_item {
+    width : 400px;
+    height: 750px;
+
+    font-family: Roboto;
+
+    margin-top : 80px;
+    margin-left : 40px;
+
+    
+    .img {
+        width: 400px;
+        height: 550px;
+        filter: drop-shadow(3px 3px 3px gray);
+    }
+
+    .text {
+        font-size: 33px;
+        font-weight: 800;
+        text-align: right;
+        padding-top : 20px;
+        padding-right : 10px;
+    }
+}
+
+// -----------------------------------------------------------------
+// TotalPirce_Container 
+.TotalPrice_Container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    width : 930px;
+    height : 410px;
+    margin-top : 35px;
+}
+
+.TotalPrice_Wrapper{
+    display: flex;
+    flex-direction: column;
+
+
+    width : 650px;
+    height : 170px;
+
+    border: 1px solid gray;
+    border-radius: 40px;
+
+    box-shadow: 2px 2px 8px gray;
+    font-family: Roboto;
+    font-weight: 800;
+}
+
+.TotalPrice_Component{
+    display: flex;
+    flex-direction: row;
+    margin-top : 33px;
+    margin-left : 30px;
+    align-items: center;
+
+    .TotalPrice_Component_Text {
+        font-size : 30px;
+        text-align: center;
+        margin-right : 350px;
+        margin-left : 30px;
+    }
+
+    .TotalPrice_Component_CountText {
+        font-size: 30px;
+    }
+}
+
+.TotalPrice_Btn {
+    width : 200px;
+    height : 100px;
+
+    border-radius : 20px;
+    border: none;
+
+    font-family: Roboto;
+    font-weight: 900;
+    font-size : 35px;
+
+    margin-left : 40px;
+    box-shadow: 2px 2px 8px gray;
+
+    background-color: burlywood;
+}

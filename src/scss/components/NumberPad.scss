@@ -1,0 +1,47 @@
+input {
+    font-size: 30px;
+    font-weight: bold;
+    width: 400px;
+    height: 75px;
+    padding: 0 12px;
+    border: 2px solid #ccc; // 테두리 두께 및 색상 조절
+    border-radius: 1rem; // 테두리 모서리 둥글게 처리
+    background-color: #fff; // 배경색 변경
+    margin-left: -30px;
+    box-shadow:  2px 2px 10px 0 rgba(black, 0.7);
+  }
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 200px;
+    margin-left: -45px;
+    margin-top: 30px; // 상단 여백 추가
+}
+
+    .button-grid button {
+        width: 140px; // 버튼의 너비를 늘립니다.
+        height: 140px; // 버튼의 높이를 늘립니다.
+        background-color: burlywood;
+        border-radius: 50%;
+        font-size: 35px;
+        border : none;
+        box-shadow:  2px 2px 10px 0 rgba(black, 0.7);
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+.back-btn {
+    position: fixed;
+    left : 45px;
+    top : 1810px;
+    font-family: Roboto;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
